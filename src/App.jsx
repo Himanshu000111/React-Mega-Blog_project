@@ -33,7 +33,9 @@ function App() {
         <Footer />
       </div>
     </div>
-  ) : null
+  ) : null)
+
+  return (
       <Editor
       apiKey='a4evxsojllczgvluk8c3e79dzgej6dmcue8ee86ibc9aefrn'
       init={{
@@ -42,6 +44,7 @@ function App() {
       }}
       initialValue="Welcome to TinyMCE!"
     />
+    )
 }
 
 export default App
